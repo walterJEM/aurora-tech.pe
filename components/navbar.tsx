@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-
+import Image from 'next/image'
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('inicio')
   const [isScrolled, setIsScrolled] = useState(false)
@@ -66,10 +66,13 @@ const Navbar = () => {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => scrollToSection('inicio')}
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-cyan-400/50">
-              AT
-            </div>
-            <span className="hidden sm:inline text-white font-bold">Aurora Tech</span>
+          <Image 
+            src="/logo.png" 
+            alt="Aurora Tech" 
+            width={150} 
+            height={50} 
+            className="object-contain"
+          />
           </motion.div>
 
           {/* Nav Items */}
