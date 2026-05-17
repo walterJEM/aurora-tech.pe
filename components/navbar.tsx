@@ -67,7 +67,7 @@ const Navbar = () => {
             onClick={() => scrollToSection('inicio')}
           >
           <Image 
-            src="/logo.jpeg" 
+            src="/logo.png" 
             alt="Aurora Tech" 
             width={150} 
             height={50} 
