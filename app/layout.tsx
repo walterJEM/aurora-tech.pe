@@ -10,9 +10,8 @@ export const metadata: Metadata = {
   description: 'Transformamos ideas en soluciones digitales - Desarrollo de software, consultoría TI y gestión empresarial',
   generator: 'v0.app',
   icons: {
-    icon: '/favicon.svg',
-    apple: '/favicon.svg',    
-
+    icon: '/logo.png',
+    apple: '/logo.png',
   },
   viewport: {
     themeColor: '#0f172a',
