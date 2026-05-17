@@ -155,10 +155,7 @@ const Footer = () => {
             <p className="text-slate-400 text-sm">
               © 2026 Aurora Tech S.A.C. Todos los derechos reservados.
             </p>
-            <p className="text-slate-500 text-xs mt-2">
-              Diseñado con{' '}
-              <span className="text-cyan-400">✨</span> para el futuro digital de Latinoamérica
-            </p>
+
           </motion.div>
         </div>
       </div>
