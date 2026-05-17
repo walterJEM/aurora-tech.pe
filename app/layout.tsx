@@ -8,7 +8,7 @@ const geist = Geist({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Aurora Tech S.A.C.',
   description: 'Transformamos ideas en soluciones digitales - Desarrollo de software, consultoría TI y gestión empresarial',
-  generator: 'v0.app',
+  generator: 'Aurora Tech',
   icons: {
     icon: '/logo.png',
     apple: '/logo.png',
@@ -19,6 +19,25 @@ export const metadata: Metadata = {
     initialScale: 1,
     userScalable: true,
   },
+
+  openGraph: {
+    title: 'Aurora Tech S.A.C.',
+    description: 'Transformamos ideas en soluciones digitales - Desarrollo de software, consultoría TI y gestión empresarial',
+    url: 'https://aurora-tech-pe.vercel.app',
+    siteName: 'Aurora Tech',
+    images: [
+      {
+        url: '/logo.png',
+        width: 800,
+        height: 600,
+        alt: 'Aurora Tech S.A.C.',
+      },
+    ],
+    locale: 'es_PE',
+    type: 'website',
+  },
+
+
 }
 
 export default function RootLayout({
@@ -35,3 +54,4 @@ export default function RootLayout({
     </html>
   )
 }
+
