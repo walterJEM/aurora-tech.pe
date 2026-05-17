@@ -69,7 +69,7 @@ const Navbar = () => {
           <Image 
             src="/logo.png" 
             alt="Aurora Tech" 
-            width={50} 
+            width={100} 
             height={50} 
             className="object-contain"
           />
